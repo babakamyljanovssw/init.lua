@@ -13,12 +13,13 @@ return {
 
 	config = function()
 		require("rose-pine").setup({
-			disable_backgrund = true,
+			--disable_backgrund = true,
 			styles = {
 				italic = false,
 			},
 		})
+		vim.cmd.colorscheme("rose-pine")
 
-		ColorMyPencils();
+		-- ColorMyPencils();
 	end
 }
