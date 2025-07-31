@@ -7,7 +7,7 @@ function ColorMyPencils(color)
 end
 
 return {
-    	'rose-pine/neovim',
+	"rose-pine/neovim",
 
 	name = "rose-pine",
 
@@ -21,5 +21,5 @@ return {
 		vim.cmd.colorscheme("rose-pine")
 
 		-- ColorMyPencils();
-	end
+	end,
 }
