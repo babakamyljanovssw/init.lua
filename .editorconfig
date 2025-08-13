@@ -1,0 +1,13 @@
+# All files
+[*]
+indent_style = space
+
+# C# Projects
+[*.csproj]
+indent_size = 4
+tab_width = 4
+
+# C# files
+[*.cs]
+indent_size = 4
+tab_width = 4
